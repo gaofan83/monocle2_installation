@@ -27,7 +27,7 @@ if (!require("BiocManager", quietly = TRUE))
 install.packages("pillar", type="source")
 BiocManager::install("monocle", type="source")
 BiocManager::install("monocle") 
-#Download Seurat 3.2.0
+#Download Seurat 3.2.0 from https://github.com/satijalab/seurat/releases/tag/v3.2.0
 install.packages(c("ape", "cowplot", "fitdistrplus", "future", "future.apply", "ggridges", "ica", "leiden", "lmtest", "patchwork", "pbapply", "plotly", "png", "RcppAnnoy", "reticulate", "ROCR", "rsvd", "sctransform", "spatstat", "uwot", "RcppProgress"))
 install.packages("reticulate") #use binary 
 install.packages("igraph", type="binary")
