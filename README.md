@@ -9,6 +9,7 @@ wget https://cran.r-project.org/src/contrib/Archive/tidyselect/tidyselect_1.1.0.
 wget https://cran.r-project.org/src/contrib/Archive/fastICA/fastICA_1.2-2.tar.gz
 ```
 
+#### In R console:
 ```{r}
 install.packages("C:/Users/caltech/Downloads/VGAM_1.1-1.tar.gz", repos = NULL, type = "source")
 install.packages("C:/Users/caltech/Downloads/irlba_2.3.3.tar.gz", repos = NULL, type = "source")
@@ -16,6 +17,7 @@ install.packages("C:/Users/caltech/Downloads/tidyselect_1.1.0.tar.gz", repos = N
 install.packages("C:/Users/caltech/Downloads/fastICA_1.2-2.tar.gz", repos = NULL, type = "source")
 ```
 
+#### In R console:
 ```{r}
 install.packages("shiny")
 install.packages("htmlwidgets")
